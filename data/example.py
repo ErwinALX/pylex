@@ -13,7 +13,7 @@ while 2*i<=40000L
         break
 def otra_fun():
     pass
-print(‘Esta es la respuesta’,con, ’y la expresión ’, 3*i+5*(7-x))
+print('Esta es la respuesta',con, 'y la expresión ', 3*i+5*(7-x))
 #string de la hipotesis
 table = []
 y = []

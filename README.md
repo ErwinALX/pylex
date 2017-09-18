@@ -19,4 +19,5 @@ Compilation:
 Running:
 
 ```bash
+./run.sh
 ```
