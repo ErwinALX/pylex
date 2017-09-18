@@ -118,6 +118,10 @@ COMMENT     #.*\n
 
 "<>"	                printf("sig_dif= <> ");
 
+"+="			printf("mas_i= <> ");
+
+
+
 [\n]+                   printf("\n");
 
 [ ]                     printf(" ");
