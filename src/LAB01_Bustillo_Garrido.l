@@ -86,7 +86,7 @@ COMMENT     #.*\n
 
 "-"	                printf("resta= - ");
 
-">>"	                printf("right_shift=> > ");
+">>"	                printf("right_shift= >> ");
 
 ">"	                printf("mayor= > ");
 
@@ -118,9 +118,31 @@ COMMENT     #.*\n
 
 "<>"	                printf("sig_dif= <> ");
 
-"+="			printf("mas_i= <> ");
+"+="			printf("mas_i= += ");
 
+"-="			printf("menos_i= -= ");
 
+"*="			printf("mult_i= *= ");
+
+"/="			printf("div_i= /= ");
+
+"&="			printf("log_and_i= &= ");
+
+"|="			printf("log_or_i= |= ");
+
+"^="			printf("log_xor_i= ^= ");
+
+"**="			printf("exp_op_i= **= ");
+
+"<<="			printf("left_shift_i= <<= ");
+
+">>="			printf("right_shift_i= >>= ");
+
+"//="			printf("dob_div_i= //= ");
+
+"%="			printf("perc_i= %%= ");
+
+";"			printf("punt_coma= ; ");
 
 [\n]+                   printf("\n");
 
